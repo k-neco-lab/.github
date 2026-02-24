@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions / Discussion
+    url: https://github.com/k-neco-lab
+    about: If you are not sure this is a bug, open an issue in the relevant repo with details.
