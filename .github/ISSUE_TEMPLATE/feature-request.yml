@@ -1,35 +1,35 @@
-name: Feature request
-description: Propose a new feature or improvement.
-title: "feat(<area>): <short description>"
+name: 功能建议
+description: 提出新功能或改进建议。
+title: "feat(<area>): <简短描述>"
 body:
   - type: textarea
     id: problem
     attributes:
-      label: Problem statement
-      description: What problem are you trying to solve?
+      label: 问题描述
+      description: 你想解决什么问题？
     validations:
       required: true
 
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      description: What would you like to happen?
+      label: 建议方案
+      description: 你希望发生什么（或怎么做）？
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
+      label: 备选方案
     validations:
       required: false
 
   - type: textarea
     id: acceptance
     attributes:
-      label: Acceptance criteria
-      description: Concrete, testable outcomes.
+      label: 验收标准
+      description: 具体、可验证/可测试的结果。
       placeholder: |
         - [ ] ...
         - [ ] ...

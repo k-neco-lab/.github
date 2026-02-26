@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions / Discussion
+  - name: 问题 / 讨论
     url: https://github.com/k-neco-lab
-    about: If you are not sure this is a bug, open an issue in the relevant repo with details.
+    about: 如果不确定是否为缺陷，请在对应仓库开 Issue 并提供细节。

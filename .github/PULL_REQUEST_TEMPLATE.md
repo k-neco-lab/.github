@@ -1,28 +1,28 @@
-# What
-<!-- 1-3 sentences. Link issues. -->
+# 做了什么
+<!-- 1-3 句话，附上相关 Issue 链接。 -->
 
-## Why
-<!-- Motivation / context. -->
+## 为什么
+<!-- 背景 / 动机。 -->
 
-## How
-<!-- Key implementation notes, trade-offs, and limitations. -->
+## 怎么做的
+<!-- 关键实现点、权衡与限制。 -->
 
-## Testing
-- [ ] Unit tests added/updated
-- [ ] Local test command:
+## 测试
+- [ ] 已添加/更新单元测试
+- [ ] 本地测试命令：
   - `...`
-- [ ] Risky areas / manual verification notes (if any):
+- [ ] 风险点 / 手工验证说明（如有）：
 
-## Rollout / Ops Notes
-<!-- Migrations, config changes, dashboards, alerts, feature flags, rollback plan. -->
+## 发布 / 运维说明
+<!-- 迁移、配置变更、监控大盘、告警、feature flag、回滚方案等。 -->
 
 ## Changelog
-<!-- Use PR title + this section for release notes. -->
-- Added:
-- Changed:
-- Fixed:
+<!-- 用 PR 标题 + 本节生成发布说明。 -->
+- 新增：
+- 变更：
+- 修复：
 
 ## Checklist
-- [ ] PR title follows: `type(scope): subject` (Conventional Commits)
-- [ ] Docs updated if behavior changed
-- [ ] No secrets / credentials committed
+- [ ] PR 标题遵循：`type(scope): subject`（Conventional Commits）
+- [ ] 如行为有变更，已更新文档
+- [ ] 未提交任何密钥 / 凭据

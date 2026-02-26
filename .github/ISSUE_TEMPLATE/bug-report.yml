@@ -1,27 +1,27 @@
-name: Bug report
-description: Report something that is broken or incorrect.
-title: "fix(<area>): <short description>"
+name: 缺陷报告
+description: 报告错误或不符合预期的行为。
+title: "fix(<area>): <简短描述>"
 body:
   - type: textarea
     id: what
     attributes:
-      label: What happened?
-      description: Include errors and symptoms.
+      label: 发生了什么？
+      description: 请包含错误信息与现象。
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect to happen?
+      label: 你期望发生什么？
     validations:
       required: true
 
   - type: textarea
     id: repro
     attributes:
-      label: Steps to reproduce
-      description: Minimal, numbered steps.
+      label: 复现步骤
+      description: 最小可复现的、编号步骤。
       placeholder: |
         1.
         2.
@@ -32,8 +32,8 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Logs / screenshots
-      description: Paste relevant logs (redact secrets).
+      label: 日志 / 截图
+      description: 粘贴相关日志（注意脱敏，移除密钥/隐私信息）。
       render: shell
     validations:
       required: false
@@ -41,15 +41,15 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version / commit
-      description: Tag, SHA, or release version.
+      label: 版本 / 提交
+      description: Tag、SHA 或 release 版本号。
     validations:
       required: false
 
   - type: dropdown
     id: severity
     attributes:
-      label: Severity
+      label: 严重程度
       options:
         - "low"
         - "medium"
